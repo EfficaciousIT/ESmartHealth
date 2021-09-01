@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "333717403279",
+    "firebase_url": "https://esmarthealth-a17c8.firebaseio.com",
+    "project_id": "esmarthealth-a17c8",
+    "storage_bucket": "esmarthealth-a17c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333717403279:android:8ce25d9b9c5a12ad",
+        "android_client_info": {
+          "package_name": "com.mobi.efficacious.esmarthealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333717403279-5ciccbhd42vet891bcnule1b82lainqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobi.efficacious.esmarthealth",
+            "certificate_hash": "06324932fd2ae527bf83928fbbaffbf3e54e7230"
+          }
+        },
+        {
+          "client_id": "333717403279-3cg1abds88m0j0gfhh99kkh0rhl5df7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJFC17p4h2FL1wcecZXxlMnx2wABI0Rek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333717403279-3cg1abds88m0j0gfhh99kkh0rhl5df7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

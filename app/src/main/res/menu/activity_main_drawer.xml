@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_personalDetails"
+            android:icon="@mipmap/profile"
+            android:title="Personal Details" />
+        <item
+            android:id="@+id/nav_family_doctor_details"
+            android:icon="@mipmap/dr"
+            android:title="Family Doctor" />
+        <item
+            android:id="@+id/nav_doctor_visit"
+            android:icon="@mipmap/dr_visit"
+            android:title="Visit" />
+        <item
+            android:id="@+id/nav_healthTips"
+            android:icon="@mipmap/health_tips"
+            android:title="Health Tips" />
+    </group>
+
+</menu>

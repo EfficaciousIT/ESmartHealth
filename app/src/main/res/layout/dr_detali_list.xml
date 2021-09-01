@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tv_drName"
+            android:text="Name : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <ImageButton
+                android:id="@+id/edit_btn"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit" />
+    </RelativeLayout>
+        <TextView
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Gender : "
+            android:paddingTop="3dp"
+            android:id="@+id/tv_dr_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <TextView
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Mobile No : "
+            android:paddingTop="3dp"
+            android:id="@+id/tv_MobileNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+
+    <ImageButton
+        android:id="@+id/callimage"
+     android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/phone" />
+</RelativeLayout>
+        <TextView
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Qualification : "
+            android:paddingTop="3dp"
+            android:id="@+id/tv_dr_qualification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+
+        <TextView
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Timing : "
+            android:paddingTop="3dp"
+            android:id="@+id/tv_dr_Timing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
